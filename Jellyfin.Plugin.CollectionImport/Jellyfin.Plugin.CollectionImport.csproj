@@ -12,8 +12,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jellyfin.Controller" Version="10.11.0-rc8" />
-    <PackageReference Include="Jellyfin.Model" Version="10.11.0-rc8" />
+    <PackageReference Include="Jellyfin.Controller" Version="10.11.9" />
+    <PackageReference Include="Jellyfin.Model" Version="10.11.9" />
     <PackageReference Include="ObjectDumper.NET" Version="4.2.7" />
     <PackageReference Include="System.Net.Http.Json" Version="9.0.0" />
     <PackageReference Include="System.Security.Claims" Version="4.3.0" />

@@ -67,7 +67,7 @@ public class CollectionImportManager
         _playlistManager = playlistManager;
         _userManager = userManager;
         _mdbClientManager = mdbClientManager;
-        _adminUser = _userManager.Users
+        _adminUser = _userManager.GetUsers()
             .Where(i => i.HasPermission(PermissionKind.IsAdministrator))
             .First();
     }
